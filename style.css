@@ -1,9 +1,29 @@
 body {
     background: rgb(110, 136, 170) ;
-    color: bisque;
+    
 }
 
-h1{
-    color: blanchedalmond;
-    background: firebrick;
+/* Select by TAG type */
+p {
+    color:rgb(244, 186, 111);
+}
+
+/* Select by ID name (unique)*/
+#raphael{
+    background: rgb(33, 112, 35);
+}
+
+/* Select by CLASS name (shared styles) */ 
+.uniform{
+    color:rgb(63, 7, 116)
+}
+
+
+h1 {
+    color: greenyellow;
+    font-weight: 300 ;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    font-family: Impact;
 }
